@@ -6,15 +6,15 @@ export const metadata = {
 };
 
 export default function Home() {
-  
   return (
     <div
-     style={{
-      height:"500px",
-      width:"500px"
-    }}>
-    <h1>Home page</h1>
-    <Link href="/about"  >About</Link>
+      style={{
+        height: "500px",
+        width: "500px",
+      }}
+    >
+      <h1>Home page</h1>
+      <Link href="/about">About</Link>
     </div>
   );
 }
