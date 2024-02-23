@@ -12,7 +12,8 @@ name: ESLint
 on:
   push:
     branches:
-      - template
+      - main
+      - dev
 
   pull_request:
     types: [opened, synchronize, reopened]
